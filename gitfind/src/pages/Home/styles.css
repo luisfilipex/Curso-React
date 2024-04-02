@@ -1,0 +1,107 @@
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center; /* Centraliza o texto */
+}
+
+.background {
+  height: 100vh;
+  position: absolute;
+  opacity: 2%;
+  left: 0;
+  top: 0;
+}
+
+.info {
+  width: 60%;
+  margin-top: 40px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  background: transparent;
+  font-size: 18px;
+  border-radius: 22px;
+  min-width: 200px;
+  width: calc(100% - 250px);
+  border: 1px solid #999999;
+  padding: 10px;
+  margin-right: 12px;
+}
+
+button {
+  background: transparent;
+  font-size: 18px;
+  border-radius: 22px;
+  min-width: 250px;
+  color: #fff;
+  border: 1px solid #2d333b;
+  padding: 10px;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  margin: 40px 0;
+  width: 60%;
+  flex-direction: column; /* Adiciona uma direção de coluna para centralizar os itens verticalmente */
+}
+
+.profile {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  border: 2px solid #e5e5e5;
+  margin-bottom: 20px; /* Adiciona margem inferior para separar a imagem do perfil dos outros elementos */
+}
+
+.perfil-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.perfil h3 {
+  color: #999999;
+  font-size: 24px;
+  margin: 0;
+}
+
+.perfil span {
+  color: #666666;
+}
+
+.perfil p {
+  color: #999999;
+  font-size: 12px;
+  margin: 20px 0 0 0;
+}
+
+.repositorio {
+  font-size: 32px;
+  color: #fff;
+  margin: 12px 0;
+  text-align: center;
+}
+
+.item {
+  display: flex;
+  margin-right: 250px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 18px;
+  color: #666;
+}
